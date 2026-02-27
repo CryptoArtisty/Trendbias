@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "trading-bias-webhook",
+  "main": "src/webhook-worker.js",
+  "compatibility_date": "2024-01-01",
+  "kv_namespaces": [
+    {
+      "binding": "APPROVED_USERS",
+      "id": ""  // We'll fill this after creation
+    }
+  ]
+}
